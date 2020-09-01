@@ -1,0 +1,10 @@
+NodeID,NodeIndex,Group,NodeSize
+ProducerA,0,Producer,1
+ProducerB,1,Producer,1
+ProducerC,2,Producer,1
+ProducerD,3,Producer,1
+ConsumerA,4,Consumer,1
+ConsumerB,5,Consumer,1
+ConsumerC,6,Consumer,1
+DecomposerA,7,Decomposer,1
+DecomposerB,8,Decomposer,1

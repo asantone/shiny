@@ -1,0 +1,53 @@
+STATEFP,myVariable,farms1000,acresPerFarm,acresM
+Alabama,8,49,186,9
+Alaska,20,1,1294,1
+Arizona,10,16,1684,26
+Arkansas,4,49,278,14
+California,2,82,311,25
+Colorado,1,36,864,31
+Connecticut,14,5,82,0
+Delaware,20,2,198,0
+District of Columbia,12,0,0,0
+Florida,16,48,195,9
+Georgia,13,47,217,10
+Hawaii,18,8,148,1
+Idaho,3,26,444,11
+Illinois,19,76,351,27
+Indiana,7,62,239,15
+Iowa,18,92,333,31
+Kansas,5,66,705,46
+Kentucky,16,86,163,14
+Louisiana,11,30,268,8
+Maine,10,8,167,1
+Maryland,4,13,160,2
+Massachusetts,5,8,68,1
+Michigan,14,55,182,10
+Minnesota,7,81,332,27
+Mississippi,19,42,263,11
+Missouri,20,108,269,29
+Montana,19,29,2068,61
+Nebraska,9,47,966,46
+Nevada,7,3,1903,6
+New Hampshire,9,4,113,0
+New Jersey,8,10,71,1
+New Mexico,4,21,2057,43
+New York,2,36,193,7
+North Carolina,5,52,164,9
+North Dakota,15,32,1241,40
+Ohio,18,75,183,14
+Oklahoma,16,87,407,35
+Oregon,15,39,423,16
+Pennsylvania,17,63,123,8
+Puerto Rico,7,0,0,0
+Rhode Island,19,1,57,0
+South Carolina,3,27,181,5
+South Dakota,2,32,1374,44
+Tennessee,1,78,139,11
+Texas,11,248,527,130
+Utah,8,17,669,11
+Vermont,2,7,174,1
+Virginia,14,47,170,8
+Washington,8,40,375,15
+West Virginia,10,23,159,4
+Wisconsin,7,78,195,15
+Wyoming,19,11,2745,30
