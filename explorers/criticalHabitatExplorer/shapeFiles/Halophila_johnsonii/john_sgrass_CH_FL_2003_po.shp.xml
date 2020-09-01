@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>National Coastal Data Development Center
+</origin>
+				<pubdate>Unpublished material
+</pubdate>
+				<title Sync="TRUE">john_sgrass_CH_FL_2003_po</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<lworkcit>
+					<citeinfo>
+						<origin>National Marine Fisheries Service (NMFS), National Oceanic and Atmospheric Administration (NOAA), Department of Commerce
+</origin>
+						<pubdate>20000329
+</pubdate>
+						<title>Designated Critical Habitat:  Critical Habitat for Johnson's Seagrass, [Docket No. 991116305-0083-02; I.D. No. 110599D][A]
+</title>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">john_sgrass_CH_FL_2003_po</ftname><onlink Sync="TRUE">\\SERO-NOVELL-4\DATA1\GIS\ESRI CATALOG\ARCDATA\PRODUCTS\Distribution\john_sgrass_CH_FL_2003_po.shp</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>These data represent the critical habitat for Johnson's Seagrass as designated by Federal Register Vol. 65, No. 66, Wednesday, April 5, 2000, Rules and Regulations.
+</abstract>
+			<purpose>The purpose of these data is to visually represent the critical habitat areas for GIS analysis and display.
+</purpose>
+			<supplinf>In addition to the coordinates provided in the Federal Register document, the following data were used to assist in the production of this dataset:  US Army Corps of Engineers - IWW_IR to DA.dgn (Microstation Design File depicting the Intracoastal Waterway), Miami Harbor 83-90.dgn (Microstation Design File depicting the federally authourized navigation channels in Miami Harbor; According to the USACE, these channels are likely to be updated in the near future).  St. John's River Water Management District - cb24_det.e00 (ArcInfo Interchange format file, converted to an ArcInfo Coverage depicting a detailed shoreline, last update 12/10/99.)
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20031114
+</caldate>
+					<time>1130
+</time>
+				</sngdate>
+			</timeinfo>
+			<current>Version used of USACE design files and SJRWMD shoreline file
+</current>
+		</timeperd>
+		<status>
+			<progress>Complete
+</progress>
+			<update>As needed
+</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-80.465409</westbc>
+				<eastbc Sync="TRUE">-80.042777</eastbc>
+				<northbc Sync="TRUE">27.854601</northbc>
+				<southbc Sync="TRUE">25.750234</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-80.465409</leftbc><rightbc Sync="TRUE">-80.042777</rightbc><bottombc Sync="TRUE">25.750234</bottombc><topbc Sync="TRUE">27.854601</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None
+</themekt>
+				<themekey>Johnson's Seagrass
+</themekey>
+				<themekey>Critical Habitat
+</themekey>
+				<themekey>GIS
+</themekey>
+				<themekey>Seagrass
+</themekey>
+			</theme>
+			<place>
+				<placekt>None
+</placekt>
+				<placekey>Florida
+</placekey>
+				<placekey>Atlantic Ocean
+</placekey>
+				<placekey>Sebastian Inlet
+</placekey>
+				<placekey>Fort Pierce Inlet
+</placekey>
+				<placekey>Indian River Lagoon
+</placekey>
+				<placekey>St. Lucie Inlet
+</placekey>
+				<placekey>Hobe Sound
+</placekey>
+				<placekey>Jupiter Inlet
+</placekey>
+				<placekey>Lake Worth
+</placekey>
+				<placekey>Lake Worth Lagoon
+</placekey>
+				<placekey>Lake Wyman
+</placekey>
+				<placekey>Biscayne Bay
+</placekey>
+			</place>
+		</keywords>
+		<accconst>None
+</accconst>
+		<useconst>Due to the collection of data used in this analysis from multiple data sources, some instances occur where the USACE ICW file intersects areas of the SJRWMD file classified as "Land", particularly in the vicinity of Hobe Sound.  Clearly this is not the real world situation and efforts will be made to resolve these conflicts in the data.  At this time, these were the best data available. The text description in 50 CFR Part 226 is always the one, true definition of Johnson's seagrass critical habitat.  These or any other depictions are for information purposes only and shouldn't be relied on for regulatory purposes.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>National Coastal Data Development Center (NCDDC)
+</cntorg>
+					<cntper>Chris Henton
+</cntper>
+				</cntorgp>
+				<cntpos>GIS Analyst/Metadata Specialist
+</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical
+</addrtype>
+					<address>Builing 1100
+</address>
+					<city>Stennis Space Center
+</city>
+					<state>MS
+</state>
+					<postal>39529
+</postal>
+					<country>USA
+</country>
+				</cntaddr>
+				<cntvoice>228-688-2354
+</cntvoice>
+				<cntfax>228-688-2968
+</cntfax>
+				<cntemail>chris.henton@noaa.gov
+</cntemail>
+				<hours>Monday - Friday, 8:00am - 4:30pm
+</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<logic>Unknown
+</logic>
+		<complete>Complete pending review
+</complete>
+		<lineage>
+			<procstep>
+				<procdesc>A point layer was created using the coordinates in the Federal Register.  Those points were then used to digitize polygons.  The polygons were then "clipped" to a detailed shoreline (cb24_det.e00) obtained from St. John's River Water Management District (SJRWMD).  Following the clip operation, microstation design files of the ICW and Miami Harbor navigation channels were obtained from the US Army Corps of Engineers (USACE) and converted to shapefiles.  The final ICW shapefile was created by using a 62.5ft buffer on either side of the centerline and editing that buffer file to match the widening areas in the vicinity of the critical habitat areas.  The final Miami Harbor shapefile was created by digitizing a polygon over the channel edge line work in the design file.  An Edit Clip was then performed to "punch a hole" through the Critical Habitat areas where they intersected the ICW and the Miami Harbor navigation channel, thus excluding the federally authorized navigation channels from the Critical Habitat areas.  Finally, the data in the vicinity of Miami Harbor in Biscayne Bay were edited visually to correspond to the paper maps in the federal register document.  Additionally, all data used were reprojected to match the detailed shoreline. (UTM Zone 17, NAD 83, HARN)
+</procdesc>
+				<procdate>20031114
+</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>National Coastal Data Development Center (NCDDC)
+</cntorg>
+							<cntper>Chris Henton
+</cntper>
+						</cntorgp>
+						<cntpos>GIS Analyst/Metadata Specialist
+</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical
+</addrtype>
+							<address>Builing 1100
+</address>
+							<city>Stennis Space Center
+</city>
+							<state>MS
+</state>
+							<postal>39529
+</postal>
+							<country>USA
+</country>
+						</cntaddr>
+						<cntvoice>228-688-2354
+</cntvoice>
+						<cntfax>228-688-2968
+</cntfax>
+						<cntemail>chris.henton@noaa.gov
+</cntemail>
+						<hours>Monday - Friday, 8:00am - 4:30pm
+</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Mandy\nesdis_data\Johnson_Seagrass_Critical_Habitat_Vis_Ed_111403.xml</srcused><date Sync="TRUE">20050812</date><time Sync="TRUE">09551000</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Q:\ARCDATA\GEODATA\States\FL\john_sgrass_CH_FL_2003_po</srcused><date Sync="TRUE">20050812</date><time Sync="TRUE">09593700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20060321</date><time Sync="TRUE">13310100</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="john_sgrass_CH_FL_2003_po">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">10</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="john_sgrass_CH_FL_2003_po"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">10</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn><geograph><geogunit Sync="TRUE">Decimal degrees</geogunit><latres Sync="TRUE">0.000000</latres><longres Sync="TRUE">0.000000</longres></geograph></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="john_sgrass_CH_FL_2003_po">
+			<enttyp>
+				<enttypl Sync="TRUE">john_sgrass_CH_FL_2003_po</enttypl>
+				<enttypd>Critical Habitat for Johnson Seagrass as of November 14, 2003 with visual edits made based on existing maps.
+</enttypd>
+				<enttypds>NCDDC
+</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">10</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID
+</attrlabl>
+				<attrdef>Internal feature number.
+</attrdef>
+				<attrdefs>ESRI
+</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.
+</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape
+</attrlabl>
+				<attrdef>Feature geometry.
+</attrdef>
+				<attrdefs>ESRI
+</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.
+</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Id
+</attrlabl>
+				<attrdef>User Assigned Unit Identification number used for data creation.
+</attrdef>
+				<attrdefs>NCDDC
+</attrdefs>
+				<attrdomv>
+					<udom>Numbers have no specific meaning, just a means of organizing shapes as the data were being digitized.
+</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">6</attwidth></attr>
+			<attr>
+				<attrlabl>Location
+</attrlabl>
+				<attrdef>Name of physical location of designated unit
+</attrdef>
+				<attrdefs>NCDDC
+</attrdefs>
+				<attrdomv>
+					<udom>Name used for identification purposes
+</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">Acre</attrlabl><attalias Sync="TRUE">Acre</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+	</eainfo>
+	<metainfo>
+		<metd Sync="TRUE">20060531</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NOAA/NESDIS/NODC/NCDDC- National Coastal Data Development Center
+</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper></cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical
+</addrtype>
+					<address>Building 1100
+</address>
+					<city>Stennis Space Center
+</city>
+					<state>MS
+</state>
+					<postal>39529
+</postal>
+					<country>USA
+</country>
+				</cntaddr>
+				<cntvoice>866-732-2382
+</cntvoice>
+				<cntfax>288-688-2968
+</cntfax>
+				<cntemail>ncddcmetadata@noaa.gov
+</cntemail>
+				<hours>8am-5pm, Monday through Friday
+</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html
+</onlink>
+			<metprof>ESRI Metadata Profile
+</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20060321</CreaDate><CreaTime>13310100</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20060531</SyncDate><SyncTime>09400400</SyncTime><ModDate>20060531</ModDate><ModTime>09400400</ModTime><MetaID>{EE4131D3-1091-4A55-A354-C34D41161735}</MetaID><DataProperties><lineage><Process Name="Project_5" ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20060321" Time="133105">Project Q:\ARCDATA\PRODUCTS\Distribution\john_sgrass_CH_FL_2003_po.shp Q:\ARCDATA\PRODUCTS\Distribution\john_sgrass_CH_FL_2003_po_Pr.shp GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] NAD_1983_HARN_To_WGS_1984</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">john_sgrass_CH_FL_2003_po</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-80.465409</westBL><eastBL Sync="TRUE">-80.042777</eastBL><northBL Sync="TRUE">27.854601</northBL><southBL Sync="TRUE">25.750234</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-80.465409</westBL><eastBL Sync="TRUE">-80.042777</eastBL><northBL Sync="TRUE">27.854601</northBL><southBL Sync="TRUE">25.750234</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distinfo><resdesc Sync="TRUE">Downloadable Data</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">0.081</transize><dssize Sync="TRUE">0.081</dssize></digtinfo></digform></stdorder></distinfo><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\SERO-NOVELL-4\DATA1\GIS\ESRI CATALOG\ARCDATA\PRODUCTS\Distribution\john_sgrass_CH_FL_2003_po.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.081</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_WGS_1984</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="john_sgrass_CH_FL_2003_po"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">10</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20060531</mdDateSt></metadata>
