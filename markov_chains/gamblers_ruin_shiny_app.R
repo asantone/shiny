@@ -33,7 +33,7 @@ ui <- fluidPage(
           sliderInput("money_init",
                       "Starting Balance ($):",
                       min = 1,
-                      max = 6,
+                      max = 5,
                       value = 1), 
           
           sliderInput("bet_max",
@@ -121,7 +121,7 @@ ui <- fluidPage(
           #row 3
           fluidRow(column(6,tableOutput("result_matrix")), 
                    column(4,
-                          wellPanel(h4("Earnings Probability Matrix"),
+                          wellPanel(h4("Earnings Probability Vector"),
                                     p("The vector resulting from the product of the Transformation matrix and the Gambler's Vector."),
                                     p("Interpretation: The vector contains the probabilities of having each associated amount of money left over. 
                                        A high probability of having 0 dollars suggests a losing strategy. A high probability of having the maximum number dollars suggests a winning strategy.
@@ -259,10 +259,16 @@ server <- function(input, output,session) {
       
       #for loop to cycle this calculation
       for (x in 1:n) {
-        result = m2 %*% m1 
-        m1 <- result       
+        output = m2 %*% m1 
+        m1 <- output
       }
       
+      
+      a <- seq(0,input$bet_max)  
+      b <- output
+      result <- data.frame(a,b)
+      names(result)<-c("$", "Probabilities")
+
       return(result)
       
     }
