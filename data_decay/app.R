@@ -172,7 +172,7 @@ h1 {
         sliderInput("enrichment", "Enrichment Effectiveness (%):", min = 0, max = 100, value = 95, step = 1),
         sliderInput("months", "Simulation Horizon (Months):", min = 12, max = 60, value = 60, step = 1),
         
-        hr(style = "border-top: 1px solid #3e444c; margin-top: 0px;"),
+        #hr(style = "border-top: 1px solid #3e444c; margin-top: 0px;"),
         div(style = "font-size: 0.75rem; color: #6c757d; text-align: center;",
             "Simulation by",
             span("Adam Santone, PhD", style = "color: #00E1FF; font-weight: 400;"))
