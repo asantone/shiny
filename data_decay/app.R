@@ -161,7 +161,7 @@ h4 {
 /* Reduce space above the Slider Labels */
 .control-label { 
   margin-bottom: 2px !important; 
-  margin-top: 2px !important; 
+  margin-top: 5px !important; 
 }
     "),
   
@@ -229,15 +229,18 @@ h4 {
       fill = FALSE,
       card(
         card_header("The Obsolescence Model"),
-        p("We utilize an exponential decay formula to model real-world firmographic degradation:"),
+        p(strong("Continuous Decay Calculation."), "To avoid the 'Linear Fallacy' (the mistaken belief that data decays at a flat monthly rate), this model uses an exponential function to reflect real-world compounding:"),
         tags$blockquote("Records(t) = Records(0) * e^(-λt)"),
-        p("Lambda (λ) is derived from your 'Obsolescence Rate' to provide a consistent monthly velocity.")
+        p("The ", strong("Lambda (λ)"), " coefficient is derived from your Annual Obsolescence Rate. This ensures that the simulation captures the accelerating velocity of data degradation over time.")
       ),
       card(
         card_header("Revenue Impact Logic"),
-        p("Revenue leakage is tied directly to the health of the 'Firmographic Inventory'. As valid records decrease, the 'Leakage Multiplier' is applied to the missing volume, simulating lost sales opportunities and marketing waste.")
+        p(strong("Quantifying Value Erosion."), "Financial leakage is mapped directly to the health of your Firmographic Inventory. As the volume of valid records decreases, the 'Leakage Multiplier' is applied to the delta:"),
+        tags$blockquote("Monthly Leakage = (Initial Revenue Impact * % of Database Decayed)"),
+        p("This creates a defensible, data-driven link between database integrity and top-line performance, treating 'Bad Data' as a measurable tax on growth.")
       )
     )
+    
   )
 )
 
