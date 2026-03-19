@@ -151,6 +151,18 @@ h1 {
   letter-spacing: -1px;          /* Tighter tracking looks more 'premium' for big numbers */
   color: #FFFFFF !important;
 }
+
+/* Reduce space below the Section Headers */
+h4 { 
+  margin-bottom: 3px !important; 
+  padding-bottom: 2px !important; 
+}
+
+/* Reduce space above the Slider Labels */
+.control-label { 
+  margin-bottom: 2px !important; 
+  margin-top: 2px !important; 
+}
     "),
   
   title = "Data Decay & Revenue Leakage Analytics",
